@@ -1,0 +1,1 @@
+filter the dashboard to access various views 
