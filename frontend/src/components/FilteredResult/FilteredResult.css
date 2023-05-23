@@ -1,0 +1,80 @@
+.filterparent{
+    background-color: rgb(232, 229, 229);
+    min-height: 100vh;
+}
+.ResultParent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.ResultCards{
+
+    height: 21rem;
+    width: 34rem;
+    margin: 0.7rem;
+    border-radius: 10px ; 
+    background-color: white;
+    display: flex;
+    padding: 1.5em 1em ;
+   justify-content:space-evenly ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-direction: column;
+}
+.ResultCards .filtertitle p{
+    font-size: 1.3em;
+    font-weight: 600;
+    width: 30rem;
+    
+}
+.cardButton{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    position: relative;
+    width: 30rem;
+}
+.cardButton Button{
+    /* position: absolute; */
+    position: absolute;
+    right: 2em;
+    
+    
+    background-color:rgb(140, 193, 211) ;
+    font-weight: 700;
+    color: black;
+    padding: 8px 15px;
+
+}
+.cardButton h2{
+    width: 7em;
+}
+.filtertitle{ 
+     display: flex;
+  
+}
+.filtertopic{
+    display: flex;
+   
+}
+.filterlogo{
+    font-size: 3.4em;
+    background-color: white ; 
+    color: rgb(140, 193, 211);
+    padding: 5px;
+    position: relative;
+    margin: 0 0.2em;
+    
+}
+Button{
+ background-color: black;
+ color: white;
+ font-size: 1.2em;
+ padding: 8px 15px;
+ font-weight: 700;
+
+}
+Button:hover{
+    background-color: white;
+    color: black;
+}

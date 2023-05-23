@@ -1,0 +1,157 @@
+.dashbord{
+    background-color: rgb(232, 229, 229);
+    height: 100vh;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: rgb(232, 229, 229);
+
+
+}
+
+.parent section {
+
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.intensity,
+.likelihood,
+.relevance {
+    display: flex;
+    flex-direction: column;
+    /* z-index: 1; */
+    position: relative;
+    justify-content: space-evenly;
+    height: 14rem;
+    width: 36rem;
+    /* border:2px solid black; */
+    padding: 20px;
+    /* padding: 10px; */
+    background-color: white;
+
+
+}
+
+.intensity h4,
+.likelihood h4,
+.relevance h4 {
+    font-size: 2.1em;
+    background-color: white;
+    /* display: inline; */
+}
+
+.year {
+    height: 25rem;
+    width: 36rem;
+    /* border:2px solid black; */
+}
+
+
+
+
+.intLogo {
+    color: white;
+    background-color: rgb(234, 149, 149);
+    font-size: 3em;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.likeLogo {
+    color: white;
+    background-color: rgb(140, 193, 211);
+    font-size: 3em;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.relLogo {
+    color: white;
+    background-color: rgb(239, 205, 143);
+    font-size: 3em;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.countryLogo {
+    color: rgb(25, 97, 160);
+    background-color: white;
+    font-size: 2em;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 74.5rem;
+    /* border: 2px solid black; */
+    background-color: rgb(25, 97, 160);
+    color: white;
+    text-align: center;
+
+    padding: 50px 20px;
+}
+
+.title section {
+    display: flex;
+    height: 9rem;
+    width: 32rem;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black; */
+    background-color: white;
+    color: black;
+    padding: 10px;
+    padding: 10px;
+    font-size: 2.2em;
+    margin: 14px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.title h3 {
+    width: 70rem;
+    background-color: rgb(25, 97, 160);
+}
+
+.title section h4 {
+    font-size: 1em;
+}
+
+.title .country {
+    display: flex;
+    background-color: rgb(25, 97, 160);
+
+
+}
+
+.spinner {
+    position: absolute;
+    z-index: 4;
+    right: 9.8em;
+    bottom: 3.6em;
+
+
+}
+
+.spinRate {
+    position: absolute;
+    z-index: 6;
+    background-color: white;
+    /* background-color: rgb(199, 199, 199); */
+    font-size: 2em;
+    font-weight: 700;
+    bottom: 3.2em;
+    right: 7.6em;
+}

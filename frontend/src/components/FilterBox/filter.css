@@ -1,0 +1,55 @@
+.filterColumn1
+{
+    
+    justify-content: space-evenly;
+}
+
+.filterColumn2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  
+}
+.filterbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 22rem;
+    min-width: 25rem;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 13;
+    right: 8rem;
+    top:6rem
+}
+
+.filterCoulmns{
+    display: flex;
+    /* flex-direction: column; */
+}
+.filterbox{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(240, 238, 238);
+  border: 2px solid black;
+  min-width: 10em;
+}
+.searchButton Button{
+    margin: 1em;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+.searchButton Button:hover{
+    background-color: black;
+    color: white;
+}
+.scrollList{
+    overflow-y: scroll;
+    height: 250px;
+}
+.message{
+    font-size: 1.2em;
+    color: red;
+    font-weight: 600;
+}

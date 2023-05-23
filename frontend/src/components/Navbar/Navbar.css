@@ -1,0 +1,45 @@
+.navbar{
+    height: 5rem;
+    width:100%;
+   
+    display:flex;
+     justify-content: space-between;  
+    
+    color: white;
+    background-color:#0099cc;
+    /* position: relative; */
+}
+.navbar h2{
+    background-color:#0099cc;
+  
+    font-weight: 700;
+    font-size: 2em;
+    
+}
+
+.filter ,.logo{
+    font-size: 1.3em;
+    color: white;
+    background-color: #0099cc;
+    /* margin:0 0.5em; */
+}
+.goBack,.home{
+    font-size: 3em;
+    color: white;
+    background-color: #0099cc;;
+    margin-left: 0.5em;
+}
+
+.mydashbord{
+    
+    font-size: 3em;
+    color: white;
+    background-color: #0099cc;
+    margin: 0 0.6em;
+}
+.leftnav h2{
+    margin-right: 0.5em;
+}
+.leftnav{
+    display: flex;
+}
