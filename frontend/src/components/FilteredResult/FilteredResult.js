@@ -31,7 +31,7 @@ function FilteredResult() {
       }
      }
      console.log(res)
-    fetch("http://localhost:8080/search",{
+    fetch("https://filter-backend.onrender.com/search",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"

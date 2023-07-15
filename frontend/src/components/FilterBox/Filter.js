@@ -31,7 +31,7 @@ function Filter() {
   const [showMessage,setShowMessage]=useState(true)
 
   useEffect(() => {
-    fetch("http://localhost:8080/filterList")
+    fetch("https://filter-backend.onrender.com/filterList")
       .then((res) => res.json())
       .then(result => {
  

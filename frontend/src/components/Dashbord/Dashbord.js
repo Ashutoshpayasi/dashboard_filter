@@ -23,7 +23,7 @@ function Dashbord() {
   const [data,seData]=useState({})
   
   useEffect(()=>{
-    fetch(`http://localhost:8080/dashbord/${dashbordId}`)
+    fetch(`https://filter-backend.onrender.com/${dashbordId}`)
     .then(res=>res.json())
   .then(result=>{
     console.log(result)
